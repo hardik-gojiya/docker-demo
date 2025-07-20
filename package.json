@@ -1,8 +1,23 @@
 {
   "name": "docker-demo",
   "version": "1.0.0",
-  "main": "app.js",
+  "description": "",
+  "homepage": "https://github.com/hardik-gojiya/docker-demo#readme",
+  "bugs": {
+    "url": "https://github.com/hardik-gojiya/docker-demo/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hardik-gojiya/docker-demo.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "server.js",
   "scripts": {
-    "start": "node app.js"
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
   }
 }
